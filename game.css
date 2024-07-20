@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+body{
+    
+    text-align: center;
+    background-image: url("images/image.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Game{
+    height: 53vh;
+    width: 63vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Box{
+    height: 15vh;
+    width: 15vh;
+    font-size: xx-large;
+    border-radius: 4vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+
+}
+.Box.o{
+    background-color: green;
+    color: white;
+}
+.Box.x{
+    background-color: red;
+    color: white;
+}
+header{
+    height: 8vh;
+    text-transform: capitalize;
+    background-color: rgb(125, 147, 148);
+}
+.score{
+    display: flex;
+    justify-content: space-between;
+    width:300px;
+    margin-top: 20px;
+    background-color: rgb(208, 131, 30);
+    
+}
+.x-score{
+    text-align: top;
+    justify-content: center;
+    
+    width: 25vh; 
+}.o-score{
+    text-align: top;
+    width:25vh;
+    
+    
+}
+.score-box{
+    background-color: rgb(115, 121, 121);
+    border:3px solid rgb(61, 61, 60);
+    padding: 0px;
+    border-radius: 2vh;
+    height: 12vh;
+    width: 25vh;
+    font-size: 20px;
+    
+
+}
+.Newgame{
+    position: relative;
+    top: -20px; left: -1px;
+    height: 5vh;
+    width:12vh;
+    background-color:rgb(52, 49, 49);
+}
+header{
+    font-size: large;
+}
+.footer{
+
+ te
+    bottom: 1px;
+    font-size: 15px;
+}
